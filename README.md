@@ -9,16 +9,6 @@ We then evaluate government responsiveness using administrative data on roughly 
 Positive or neutral attention is associated with reduced responsiveness, while the effects of negative attention vary, with attention to government failures leading to increased responsiveness but attention to corruption leading to reduced responsiveness. These patterns are consistent with mechanisms of reputation management, disclosure threat, and workload burden; but inconsistent with mechanisms of credit claiming or blame avoidance.
 
 
-## Data Description
-This dataset contains newspaper articles from two news publications: 
-- Reforma (219,354 articles)
-- El Universal (119,302 articles)
-
-
-Articles gathered are those that contain either:
-- Name of national agency
-- Abbreviation of agency
-- Name of minister in charge of agency
 
 
 ## Compiled File description
@@ -58,8 +48,20 @@ Stable articles have been compiled into `all_unstable_articles.csv` (embargoed) 
 - `SEMARNAT` : Secretaría de Medio Ambiente y Recursos Naturales
 - `SRE` : Secretaría de Relaciones Exteriores
 
-## Installation
-Data is local. When you clone this repository, it will only contain references to data, not data itself.
+
+## Data Description
+This dataset contains newspaper articles from two news publications: 
+- Reforma (219,354 articles)
+- El Universal (119,302 articles)
+
+
+Articles gathered are those that contain either:
+- Name of national agency
+- Abbreviation of agency
+- Name of minister in charge of agency
+
+
+Data is *local*. When you clone this repository, it will only contain references to data, not data itself.
 
 Please ask the authors to share the data if you desire to run the replication on the same data. 
 
@@ -68,7 +70,7 @@ Please ask the authors to share the data if you desire to run the replication on
 Python:
 
 import pandas as pd
-df = pd.read_pickle('./data/raw/all_unstable_articles.pkl')
+df = pd.read_pickle('data_raw/all_unstable_articles.pkl')
 ```
 
 ## Corruption related words
