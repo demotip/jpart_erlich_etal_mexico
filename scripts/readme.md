@@ -76,6 +76,9 @@ Scripts for processing the Newspaper Articles dataset
 ![img](https://i.imgur.com/RwDWTpu.png)
 
 
+The code to preprocess the data is not publicly available. For more information about the preprocessing and the data please contact the authors.
+
+
 ## Description of some parameters
 
 - Anomaly detection (`04A-anomaly_detection.py`)
