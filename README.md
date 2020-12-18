@@ -1,6 +1,5 @@
 # Mexico-Newspaper-Articles-Prod![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-The Mexican Newspaper Articles dataset contains newspaper articles from Mexican newspapers pertaining to national agencies. The main goal for gathering this dataset is to assess periods of scandal.
-
+This repository contains the code to replicate the analysis in Erlich et al. 2021. Please see the article for a fuller description of the articles downloaded. 
 
 
 ## Description
@@ -16,7 +15,7 @@ Articles gathered are those that contain either:
 
 
 ## Compiled File description
-Stable articles have been compiled into `all_unstable_articles.csv` with the following attributes.
+Stable articles have been compiled into `all_unstable_articles.csv` (embargoed) with the following attributes.
 
 ![img](https://i.imgur.com/c6iyjmj.png)
 - `source` : newspaper from which article was collected
@@ -53,16 +52,9 @@ Stable articles have been compiled into `all_unstable_articles.csv` with the fol
 - `SRE` : Secretaría de Relaciones Exteriores
 
 ## Installation
-Data is stored using Git-LFS. When you clone this repository, it will only contain references to data, not data itself.
+Data is local. When you clone this repository, it will only contain references to data, not data itself.
 
-You need to run the following:
-
-```
-git lfs fetch
-git lfs pull
-```
-
-inside your cloned repository to download the files. If you don't do so, you will encounter unpickling errors.
+Please ask the authors to share the data if you desire to run the replication on the same data. 
 
 ## Article Loading
 ```
@@ -107,9 +99,6 @@ Benjamin Bagozzi - [bagozzib@gmail.com](mailto:bagozzib@gmail.com)
 Daniel Berliner - [danberliner@gmail.com](mailto:danberliner@gmail.com)
 
 Aaron Erlich - [aaron.erlich@mcgill.ca](mailto:aaron.erlich@mcgill.ca)
-
-Alex Wang - [xin.t.wang@mail.mcgill.ca](mailto:xin.t.wang@mail.mcgill.ca)
-
 
 
 ## License
