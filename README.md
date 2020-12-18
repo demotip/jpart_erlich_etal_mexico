@@ -1,8 +1,15 @@
 # Mexico-Newspaper-Articles-Prod![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 This repository contains the code to replicate the analysis in Erlich et al. 2021. Please see the article for a fuller description of the articles downloaded. 
 
+## Abstract
+How does media attention shape bureaucratic behavior? We answer this question using novel data from the Mexican federal government. We first develop a new indicator for periods of anomalously heightened media attention, based on 150,000 news articles pertaining to 22 Mexican government ministries and agencies, and qualitatively categorize their themes.
 
-## Description
+We then evaluate government responsiveness using administrative data on roughly 500,000 requests for government information over a ten-year period, with their associated responses. A panel fixed-effects approach demonstrates effects of media attention on the volume of outgoing weekly responses, while a second approach finds effects on the ''queue'' of information requests already filed when anomalous media attention begins. Consistent across these empirical approaches, we find that media attention shapes bureaucratic behavior. 
+
+Positive or neutral attention is associated with reduced responsiveness, while the effects of negative attention vary, with attention to government failures leading to increased responsiveness but attention to corruption leading to reduced responsiveness. These patterns are consistent with mechanisms of reputation management, disclosure threat, and workload burden; but inconsistent with mechanisms of credit claiming or blame avoidance.
+
+
+## Data Description
 This dataset contains newspaper articles from two news publications: 
 - Reforma (219,354 articles)
 - El Universal (119,302 articles)
@@ -90,7 +97,6 @@ desví
 enriquecimient
 ```
 
-## Running Sequence (as of Jan 15, 2019)
 
 
 ## Contact
