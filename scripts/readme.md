@@ -70,7 +70,7 @@ Scripts for processing the Newspaper Articles dataset
 - In: A dataframe with SVM words, an anomaly dataframe and the dataframe with all sentiments
 - Out:  One txt file for each one of the anomalies with the articles ordered by svm words count
 
-
+ ------------------------------------------------------------------------------------------------
 
 
 ![img](https://i.imgur.com/RwDWTpu.png)
@@ -79,7 +79,7 @@ Scripts for processing the Newspaper Articles dataset
 The code to preprocess the data is not publicly available. For more information about the preprocessing and the data please contact the authors.
 
 
-## Description of some parameters
+## Description of some additional parameters
 
 - Anomaly detection (`04A-anomaly_detection.py`)
 The anomaly detection is based on the the generalized extreme Studentized deviate (GESD), which is used to detect one or more outliers in a univariate data set that follows an approximately normal distribution.
