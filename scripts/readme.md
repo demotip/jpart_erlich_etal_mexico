@@ -73,7 +73,7 @@ Scripts for processing the Newspaper Articles dataset
  ------------------------------------------------------------------------------------------------
 
 
-![img](https://i.imgur.com/6OSfaSm.png)
+![img](https://i.imgur.com/aJvsyxk.png)
 
 
 The code to preprocess the data is not publicly available. For more information about the preprocessing and the data please contact the authors.
